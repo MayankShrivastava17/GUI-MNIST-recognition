@@ -1,1 +1,3 @@
-<h1 style="text-align:center;">GUI MNIST Recognition</h1>
+<div align="center">
+  <h1>GUI MNIST Recognition</h1>
+</div>
