@@ -27,5 +27,4 @@ model.fit(
     epochs=10
 )
 
-print (model.evaluate(x_test, y_test))
-# %%
+model.save('gui-mnist.h5')
