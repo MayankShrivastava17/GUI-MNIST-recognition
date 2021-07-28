@@ -4,7 +4,7 @@ import gradio as gr
 import cv2 as cv
 import numpy as np
 
-model = tf.keras.models.load_model('gui-mnist.h5')
+model = tf.keras.models.load_model('./model/gui-mnist.h5')
 
 def prepration(img):
     img = np.asarray(img)              # convert to array 
